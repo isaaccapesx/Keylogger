@@ -36,8 +36,8 @@ def send_email():
             #checks to see if the line is empty or not and remvoes whitespace
             if email_send2.strip():
                 #email and password
-                yag = yagmail.SMTP('isaac.capes05@gmail.com','tbsv gkpx flqa qfxa')
-                yag.send(to='isaac.capes@yahoo.com',
+                yag = yagmail.SMTP('#email','tbsv gkpx flqa qfxa')
+                yag.send(to='#email',
                         subject='Message from txt file',
                         contents=email_send2)
         #simple error handling        
